@@ -2,9 +2,9 @@
 <head profile="http://gmpg.org/xfn/11">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Framit</title>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-<script type="text/javascript" src="script/jquery.autogrow.js"></script>
-<script type="text/javascript" src="script/tools.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.autogrow.js"></script>
+<script type="text/javascript" src="js/tools.js"></script>
 <script type="text/javascript">
 </head>
 <body>

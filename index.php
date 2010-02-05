@@ -5,9 +5,9 @@
 <title>Framit</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 <link rel="shortcut icon" href="favicon.gif" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
-<script type="text/javascript" src="script/jquery.autogrow.js"></script>
-<script type="text/javascript" src="script/tools.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.autogrow.js"></script>
+<script type="text/javascript" src="js/tools.js"></script>
 <!--
 Framit  : Hacking tool by frame handling
           Open source project initiated by Raphael Bastide
