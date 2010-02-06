@@ -4,7 +4,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Framit</title>
 <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-<link rel="shortcut icon" href="favicon.gif" />
 <script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
 <script type="text/javascript" src="js/jquery.autogrow.js"></script>
 <script type="text/javascript" src="js/tools.js"></script>
@@ -51,7 +50,7 @@ CONTACT : bonjour@raphaelbastide.com
 	<?php if(isset($url)) : ?>
 	<?php 
 		echo '<iframe name="frame" id="frame" class="frame '.$placeCSS.'" src ="'.$url.'" 
-					style="-moz-transform: rotate('.$rotate.');-webkit-transform: rotate('.$rotate.');'.
+					style="-moz-transform:rotate('.$rotate.');-webkit-transform:rotate('.$rotate.');'.
 					$place.';'.$css.'"';
 		if(isset($refresh) && $refresh == '1') {
 			echo ' onload="reloadIt(\'frame\')">';
@@ -67,7 +66,7 @@ CONTACT : bonjour@raphaelbastide.com
 	<?php if(isset($url2)) : ?>
 	<?php 
 		echo '<iframe name="frame2" id="frame2" class="frame '.$placeCSS.'" src ="'.$url2.'" 
-					style="-moz-transform: rotate('.$rotate2.');-webkit-transform: rotate('.$rotate2.');'.
+					style="-moz-transform:rotate('.$rotate2.');-webkit-transform:rotate('.$rotate2.');'.
 					$place.';'.$css2.'"';
 		if(isset($refresh2) && $refresh2 == '1') {
 			echo ' onload="reloadIt(\'frame2\')">';

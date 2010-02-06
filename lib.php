@@ -2,8 +2,8 @@
 
 function bitly_url($url)
 {
-	$login='lrntrlln';
-	$appkey='R_3574209f97e5dc17a078cab9f019a2a4';
+	$login='';
+	$appkey='';
 	$format = 'json';
 	$version = '2.0.1';
 	//create the URL

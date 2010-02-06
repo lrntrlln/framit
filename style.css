@@ -9,6 +9,7 @@ ul{display:block;list-style-type:none;}
 li{-moz-border-radius:3px;-webkit-border-radius:3px;float:left;background:#F7F7F7;margin:5px 10px;padding:2px;}
 a{color:#2254a0;}
 textarea,input{color:grey;}
+.clear{clear:both;margin:12px 0;}
 
 /*place*/
 .place1{width:100%; top:0; position:absolute; left:0;}
@@ -29,3 +30,8 @@ textarea,input{color:grey;}
 
 #text{margin:5px 10px 5px 0;padding:0;}
 #manual{display:none;width:30px;}
+
+#favs li{background:none;padding:0px;margin:0 4px 0 0;}
+#favs li a{text-decoration:none;}
+#favs li a:hover{color:grey;}
+.sub{display:block;margin:-20px 0 10px 75px;font-size:9px;}
